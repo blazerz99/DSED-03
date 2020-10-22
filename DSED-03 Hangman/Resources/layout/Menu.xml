@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Welcome to Guess the Fruits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/TVWelcomeText"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:textStyle="bold" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgFruitMenu"
+        android:scaleType="fitXY" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVEnterName"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="24dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="Enter Your Name"
+        android:textAlignment="center" />
+    <Button
+        android:text="Enter Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlay2" />
+    <TextView
+        android:text="Instructions:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Guess the Fruits inside the fruit basket, You only have 5 lives to guess them all or else the fruits in the fruit basket will ROT! If you guess a fruit correctly you get to eat it and earn a point :) keep Guessing until your full!"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+</LinearLayout>

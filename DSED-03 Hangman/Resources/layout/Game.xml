@@ -1,0 +1,309 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50px">
+    <TextView
+        android:text="Guess The Fruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#ff1a0902" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgHangFruit" />
+
+    <TextView
+        android:text="Whats in the Fruit Basket?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWord"
+        android:textAlignment="center"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:textColor="#ffb33a3a" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:paddingLeft="20px"
+        android:paddingRight="20px">
+        <Button
+            android:text="A"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnA"
+            android:tag="A" />
+        <Button
+            android:text="B"
+            android:layout_width="52.0dp"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnB"
+            android:tag="B" />
+        <Button
+            android:text="C"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnC"
+            android:tag="C" />
+        <Button
+            android:text="D"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnD"
+            android:tag="D" />
+        <Button
+            android:text="E"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnE"
+            android:tag="E" />
+        <Button
+            android:text="F"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnF"
+            android:tag="F" />
+        <Button
+            android:text="G"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnG"
+            android:tag="G" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:paddingRight="20px"
+        android:paddingLeft="20px">
+
+        <Button
+            android:text="H"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnH"
+            android:tag="H" />
+        <Button
+            android:text="I"
+            android:layout_width="52.0dp"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnI"
+            android:tag="I" />
+
+        <Button
+            android:text="J"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnJ"
+            android:tag="J" />
+        <Button
+            android:text="K"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnK"
+            android:tag="K" />
+        <Button
+            android:text="L"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnL"
+            android:tag="L"
+            android:visibility="visible" />
+        <Button
+            android:text="M"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnM"
+            android:tag="M" />
+        <Button
+            android:text="N"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnN"
+            android:tag="N" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:paddingRight="20px"
+        android:paddingLeft="20px">
+
+        <Button
+            android:text="O"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnO"
+            android:tag="O" />
+        <Button
+            android:text="P"
+            android:layout_width="52.0dp"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnP"
+            android:tag="P" />
+        <Button
+            android:text="Q"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnQ"
+            android:tag="Q" />
+        <Button
+            android:text="R"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnR"
+            android:tag="R" />
+        <Button
+            android:text="S"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnS"
+            android:tag="S" />
+        <Button
+            android:text="T"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnT"
+            android:tag="T" />
+        <Button
+            android:text="U"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnU"
+            android:tag="U" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:paddingLeft="124px">
+
+        <Button
+            android:text="V"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnV"
+            android:tag="V" />
+        <Button
+            android:text="W"
+            android:layout_width="52.0dp"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnW"
+            android:tag="W" />
+        <Button
+            android:text="X"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnX"
+            android:tag="X" />
+        <Button
+            android:text="Y"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnY"
+            android:tag="Y" />
+        <Button
+            android:text="Z"
+            android:layout_width="52.0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/btnZ"
+            android:tag="Z" />
+    </LinearLayout>
+    <Button
+        android:text="Start Game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlay" />
+    <TextView
+        android:text="User:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCurrentUser"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textSize="30px" />
+    <TextView
+        android:text="Score:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvScore"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textSize="30px" />
+</LinearLayout>
